@@ -5,12 +5,12 @@ A simple, clean, and responsive **login page** built with **HTML** and **CSS** a
 This project demonstrates modern UI techniques such as a full-screen background, glassmorphism login card, and responsive design.
 
 ## ✨ Features
-- 🌄 **Full-page background image** with dark overlay for better readability  
-- 🔐 **Login form** with username/password fields and a "Remember Me" checkbox  
-- 🖼️ **Glassmorphism design** for a modern, elegant look  
-- 📱 **Responsive layout** for desktop and mobile screens  
-- 🎯 **Simple navigation bar** with Home, About, Syllabus, Guidelines, Contact, and Login links  
-- 🔍 Search bar in the header  
+-  **Full-page background image** with dark overlay for better readability  
+-  **Login form** with username/password fields and a "Remember Me" checkbox  
+-  **Glassmorphism design** for a modern, elegant look  
+-  **Responsive layout** for desktop and mobile screens  
+-  **Simple navigation bar** with Home, About, Syllabus, Guidelines, Contact, and Login links  
+-  Search bar in the header  
 
 ## 📂 Project Structure
 
@@ -21,7 +21,7 @@ This project demonstrates modern UI techniques such as a full-screen background,
 └── README.md # Project documentation
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. **Clone the repository**
    ```bash
