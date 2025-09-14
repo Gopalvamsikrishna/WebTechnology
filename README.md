@@ -14,12 +14,10 @@ This project demonstrates modern UI techniques such as a full-screen background,
 
 ## 📂 Project Structure
 
-
 ├── index.html # Main page with navigation bar and login form
 ├── styles.css # Core styling for layout and components
 ├── bg.jpg # Background image (replace with your own)
 └── README.md # Project documentation
-
 
 ##  Getting Started
 
@@ -28,12 +26,9 @@ This project demonstrates modern UI techniques such as a full-screen background,
    git clone https://github.com/Gopalvamsikrishna/WebTechnology.git
    cd WebTechnology
 
-
 Open in browser
 Just open index.html in your browser — no server required.
 
-🛠️ Tech Stack
-
+Tech Stack
 HTML5
-
 CSS3 (Flexbox & Responsive Design)
