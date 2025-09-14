@@ -13,11 +13,12 @@ This project demonstrates modern UI techniques such as a full-screen background,
 -  Search bar in the header  
 
 ## 📂 Project Structure
-
+```
 ├── index.html # Main page with navigation bar and login form.
 ├── styles.css # Core styling for layout and components.
 ├── bg.jpg # Background image (replace with your own).
 └── README.md # Project documentation.
+```
 
 ##  Getting Started
 
