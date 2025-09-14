@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <form id="loginForm" onsubmit="return handleLogin(event)">
+                <h1>Login</h1>
+                <h4>Login to access the DAA Library</h4>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" name="admin" id="username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" name="password" id="password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember Me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="register-link">
+                    <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
+            </form>
+            <script>
+                function handleLogin(event) {
+                    event.preventDefault(); // Prevent form submission
+
+                    // Get username and password values
+                    const username = document.getElementById('username').value;
+                    const password = document.getElementById('password').value;
+
+                    // Perform your authentication logic here
+                    // For simplicity, let's assume the credentials are correct
+                    if (username === 'user' && password === 'pass') {
+                        // Set the logged-in flag in localStorage
+                        localStorage.setItem('loggedIn', 'true');
+                        // Refresh the frameset to update the menu
+                        parent.frames['bottom'].location.href = 'webdesign.html';
+                         
+
+                    } else {
+                        alert('Invalid credentials. Please try again.');
+                    }
+                }
+            </script>
+        </div>
+    </div>
+</body>
+</html>
